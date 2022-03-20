@@ -4,9 +4,8 @@
 	"description": "",
 	"main": "server.js",
 	"scripts": {
-		"postinstall": "npm run build",
-		"start": "node server.js",
-		"dev": "nodemon server.js"
+		"postinstall": "npm run start",
+		"start": "node server.js"
 	},
 	"author": "",
 	"license": "ISC",
