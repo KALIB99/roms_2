@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "name": "vuexy-vuejs-html-laravel-dashboard-admin-template",
   "version": "4.0.0",
   "private": true,
@@ -8,6 +7,7 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "start": "node server.js",
+    "postinstall": "npm run build",
 		"dev": "nodemon server.js"
   },
   "dependencies": {
@@ -95,7 +95,7 @@
 		"nodemon": "^2.0.13"
   }
 }
-=======
+
 	"name": "vuexy-vuejs-html-laravel-dashboard-admin-template",
 	"version": "4.0.0",
 	"private": true,
@@ -191,5 +191,3 @@
 		  "nodemon": "^2.0.13"
 	}
   }
-  
->>>>>>> 75a8a86 ( commit)
